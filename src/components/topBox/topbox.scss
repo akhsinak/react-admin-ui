@@ -1,0 +1,41 @@
+.topbox {
+  // border: 1px solid red;
+  .list {
+    margin-top: 10px;
+    // border: 1px solid yellow;
+    .listitem {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      //   border: 1px solid yellow;
+      margin-bottom: 8px;
+
+      .usersection {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        // border: 1px solid green;
+        padding: 5px;
+        align-items: center;
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+        }
+
+        .userdetails {
+          display: flex;
+          flex-direction: column;
+          //   border: 1px solid red;
+          padding: 5px;
+        }
+      }
+
+      span.amount {
+        font-weight: bold;
+        font-family: monospace;
+        font-size: 17px;
+      }
+    }
+  }
+}
