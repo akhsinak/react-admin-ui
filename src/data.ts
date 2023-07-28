@@ -154,12 +154,12 @@ export const topdealusers = [
 ];
 
 export const chartBoxUser = {
-  color: "green",
+  color: "violet",
   icon: "userIcon.svg",
   title: "TotalUsers",
   number: "11.238",
   datakey: "users",
-  percentage: 45,
+  percentage: -17,
   chartData: [
     {
       name: "Sun",
@@ -188,6 +188,160 @@ export const chartBoxUser = {
     {
       name: "Sat",
       users: 500,
+    },
+  ],
+};
+
+export const chartBoxUser2 = {
+  color: "yellow",
+  icon: "favicon.svg",
+  title: "Something",
+  number: "16.899",
+  datakey: "users",
+  percentage: 34,
+  chartData: [
+    {
+      name: "Sun",
+      users: 400,
+    },
+    {
+      name: "Mon",
+      users: 500,
+    },
+    {
+      name: "Tue",
+      users: 700,
+    },
+    {
+      name: "Wed",
+      users: 200,
+    },
+    {
+      name: "Thu",
+      users: 800,
+    },
+    {
+      name: "Fri",
+      users: 100,
+    },
+    {
+      name: "Sat",
+      users: 500,
+    },
+  ],
+};
+
+export const chartBoxUser3 = {
+  color: "orange",
+  icon: "logo.svg",
+  title: "Stats",
+  number: "100.34",
+  datakey: "users",
+  percentage: 29,
+  chartData: [
+    {
+      name: "Sun",
+      users: 400,
+    },
+    {
+      name: "Mon",
+      users: 500,
+    },
+    {
+      name: "Tue",
+      users: 700,
+    },
+    {
+      name: "Wed",
+      users: 200,
+    },
+    {
+      name: "Thu",
+      users: 800,
+    },
+    {
+      name: "Fri",
+      users: 100,
+    },
+    {
+      name: "Sat",
+      users: 500,
+    },
+  ],
+};
+
+export const chartBoxUser4 = {
+  color: "lightblue",
+  icon: "userIcon.svg",
+  title: "Projections",
+  number: "15.67",
+  datakey: "users",
+  percentage: -45,
+  chartData: [
+    {
+      name: "Sun",
+      users: 400,
+    },
+    {
+      name: "Mon",
+      users: 500,
+    },
+    {
+      name: "Tue",
+      users: 700,
+    },
+    {
+      name: "Wed",
+      users: 200,
+    },
+    {
+      name: "Thu",
+      users: 800,
+    },
+    {
+      name: "Fri",
+      users: 100,
+    },
+    {
+      name: "Sat",
+      users: 500,
+    },
+  ],
+};
+
+export const barchart1 = {
+  title: "Profit Earned",
+  color: "#8884d8",
+  dataKey: "profit",
+  chartData: [
+    {
+      name: "Sun",
+      profit: 4000,
+    },
+    {
+      name: "Mon",
+      profit: 1000,
+    },
+    {
+      name: "Tue",
+      profit: 2000,
+    },
+    {
+      name: "Wed",
+      profit: 8643,
+    },
+    {
+      name: "Thu",
+      profit: 4067,
+    },
+    {
+      name: "Fri",
+      profit: 2350,
+    },
+
+    {
+      name: "Sat",
+      profit: 6787,
     },
   ],
 };

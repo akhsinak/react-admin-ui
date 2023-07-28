@@ -1,0 +1,52 @@
+.piechartbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //   border: 5px solid green;
+
+  height: 100%;
+
+  .chart {
+    // border: 2px solid red;
+    margin-bottom: 5px;
+    transform: translateY(-30px);
+  }
+
+  .options {
+    // border: 2px solid cyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .option {
+      //   border: 2px solid yellow;
+      background-color: rgba(100, 100, 100, 0.5);
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .title {
+        display: flex;
+        gap: 5px;
+
+        .dot {
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+        }
+      }
+
+      .spanny {
+        background-color: rgba(40, 40, 40, 0.5);
+        padding: 7px;
+        margin-top: 5px;
+        border-radius: 10px;
+        text-align: right;
+        width:fit-content
+      }
+    }
+  }
+}
