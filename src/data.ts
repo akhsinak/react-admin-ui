@@ -345,3 +345,41 @@ export const barchart1 = {
     },
   ],
 };
+
+
+export const barchart2 = {
+  title: "Profit Earned",
+  color: "orange",
+  dataKey: "profit",
+  chartData: [
+    {
+      name: "Sun",
+      profit: 4000,
+    },
+    {
+      name: "Mon",
+      profit: 1000,
+    },
+    {
+      name: "Tue",
+      profit: 2000,
+    },
+    {
+      name: "Wed",
+      profit: 8643,
+    },
+    {
+      name: "Thu",
+      profit: 4067,
+    },
+    {
+      name: "Fri",
+      profit: 2350,
+    },
+
+    {
+      name: "Sat",
+      profit: 6787,
+    },
+  ],
+};
