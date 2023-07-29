@@ -24,7 +24,7 @@ export const menu = [
       {
         id: 1,
         title: "Users",
-        url: "/",
+        url: "/users",
         icon: "user.svg",
       },
       {
@@ -345,7 +345,6 @@ export const barchart1 = {
     },
   ],
 };
-
 
 export const barchart2 = {
   title: "Profit Earned",

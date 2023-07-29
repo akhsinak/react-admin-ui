@@ -1,0 +1,15 @@
+.datatable {
+  height: 100%;
+
+  .datagrid {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+  }
+
+  .MuiDataGrid-toolbarContainer {
+    // flex-direction: row-reverse;
+    // justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
