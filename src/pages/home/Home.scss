@@ -1,6 +1,7 @@
 @import "../../styles/variables.scss";
 
 .home {
+  padding: 15px;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(4, 1fr);
@@ -8,7 +9,8 @@
   .box {
     border: 1px solid gray;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 30px;
+    background-color: $soft-bg;
   }
 
   .box1 {
