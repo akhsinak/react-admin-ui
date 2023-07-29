@@ -1,0 +1,22 @@
+.users {
+  margin-bottom: 20px;
+  .info {
+    display: flex;
+    // border: 2px solid red;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: rgba(100, 100, 100, 0.4);
+    margin-top: 20px;
+    button {
+      padding: 6px;
+      border-radius: 20px;
+      width: 80px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+  }
+}
