@@ -1,6 +1,10 @@
 @import "../../styles/variables.scss";
 
 .menu {
+  border: 2px solid gray;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 20px;
   .item {
     display: flex;
     flex-direction: column;
